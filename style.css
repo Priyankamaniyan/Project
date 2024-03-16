@@ -1,0 +1,367 @@
+/* *@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap'); */
+:root{
+  --orange:#ffa500;
+}
+/* .macondo-regular {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+::selection
+  {
+    background: var(--orange);
+    color:#fff;
+  }
+ 
+  .navbar .icons i{
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .navbar .icons i:hover{
+    color: var(--orange);
+  }
+  .carousel-caption h5{
+    font-size: 35px;
+    margin-top: -10%;
+    text-decoration:none;
+  }
+  .carousel-item img{
+    margin-top: 60px;
+    max-height: 600px;
+    position: relative;
+  }
+  .team-item{
+    box-shadow: 0 0 50px rgba(0,0,0,0.08);
+  }
+  .team-item img{
+    transition: 0.5s;
+  }
+  .team-item:hover img{
+    transform: scale(0.5);
+  }
+  .team-item .btn{
+    background: var(--orange);
+    color: #fff;
+    border-radius:20px;
+    border-bottom: 1px solid var(--orange);
+    transition: 0.5s;
+  }
+  .team-item .btn:hover{
+    background: var(--orange);
+    color: #fff!important;
+  }
+  
+  /* @media (min-width:768px){
+    .testimonial-carousel::before,
+    .testimonial-carousel::after{
+        width: 200px;
+    }
+  }
+  
+  .testimonial-carosel .owl-item .testimonial-item,
+  .testimonial-carosel .owl-item .testimonial-item *{
+    transition: 0.s;
+  }
+  .testimonial-carosel .owl-item .testimonial-item{
+    background: var(--orange)!important;
+    border-color: var(--orange) !important;
+  
+  }
+  
+  .testimonial-carosel .owl-item .testimonial-item *{
+    color: #fff !important;
+  }
+  .testimonial-carosel .owl-dots{
+    margin-top: 24px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+  }
+  .testimonial-carosel .owl-dot{
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    /* border: 1px solid #cccccc; */
+    /* border-radius: 15px; */
+    /* transition: 0.5s; */
+  /* } */
+  /* .testimonial-carosel .owl-dot:active{
+    background: var(--orange);
+    border-color:  var(--orange);
+  }
+  #addon{
+    position:absolute;
+    z-index: 3;
+    margin-top: 2%;
+  }
+  #addon input{
+    padding: 2%;
+  }
+  #addon{
+    display: none;
+  }
+  #addon button{
+    margin-left: 100px;
+    position: absolute;
+    border: none;
+    background: transparent;
+  }
+  button a{
+    text-decoration: none;
+    padding: 20px;
+  }
+  .btm-sm-square{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    border-radius: 0px;
+  }   */
+ 
+  table{
+    color: white;
+    width:100%;
+    max-width: 720px;
+    margin:40px auto;
+    box-shadow: #fff;
+    -moz-box-shadow :0px 4px 20px white;
+    -webkit-box-shadow :0px 4px 20px white; 
+    
+  }
+  
+  th,td{
+    text-align:center;
+    padding: 8px;
+  }
+  .service-item{
+    box-shadow: 0 0 45px rgba(0,0,0,0.08);
+    transition: 0.6s;
+  }
+  .service-item *{
+    transition: 0.5s;
+  }
+  .service-item:hover{
+    background: var(--orange);
+  }
+  .service-item:hover *{
+    color: var(--light) !important;
+  }
+  .trainers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #100034;
+  }
+
+.wrapper
+{
+  position: relative;
+  width: 100%;
+  height: 80%;
+  padding: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card
+{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #000;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 5px rgba(0, 0, 0, .2);
+}
+
+.poster
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.poster::before
+{
+  content: '';
+  position: absolute;
+  bottom: -45%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.details
+{
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 1.5em 1.5em 2em;
+  background: #000a;
+  backdrop-filter: blur(16px) saturate(120%);
+  transition: .3s;
+  color: #fff;
+  z-index: 2;
+}
+
+.card:hover .details
+{
+  bottom: 0;
+}
+
+.details h1
+.details h2
+{
+  font-weight: 700;
+}
+
+.details h1
+{
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.details h2
+{
+  font-size: 400;
+  font-size: 1em;
+  margin-bottom: 10px;
+  opacity: .6;
+}
+.btn{
+  font-weight: 600;
+  transition: 0.05s;
+}
+
+.btn.btn-primary,.btn.btn-secondary{
+  color:#fff;
+}
+.btn-square{
+  width: 40px;
+  height: 40px;
+}
+.team-item img{
+  height: 231px;
+  width: 100%;
+}
+.one{
+  position: absolute;
+  z-index: 2;
+  position: fixed;
+  padding: 15px;
+  border: none;
+  right: 1%;
+  bottom: 1%;
+  border-radius: 10%;
+}
+
+#contact h4{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  color:#ffa500;
+}
+.box{
+  width: 80% !important;
+  margin-top: 10px;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+#contact input{
+  margin: 10px 0px;
+}
+#contact text area{
+  margin: 10px 0px;
+}
+footer{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    background: #121315;
+  }
+  footer ul{
+    list-style: none;
+  }
+  footer p{
+    color:#ccc;
+    font-size: 0.9em;
+  }
+  footer a{
+    color: #fff;
+    text-decoration: none;
+  }
+  footer a:hover{
+    color: #ffa500;
+  }
+  footer h4{
+    margin-bottom:1em;
+    text-transform: uppercase;
+  }
+  footer .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:1em;
+  }
+  .footer1{
+    text-align: center;
+  }
+  .footer1 .menu {
+    margin-bottom: 3em;
+  }
+  .footer1 .menu li {
+    display: inline-block;
+    margin:  0.7em ;
+    text-align: center;
+  }
+  .footer1 p{
+    margin: auto;
+    text-align:center;
+  }
+.footer1 .media-icons{
+  margin-top: -2px;
+}
+footer h4{
+  display: block;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.media-icons li{
+ display: inline-block;
+ margin:0em 0.5em 0.5em 0;
+}
+.media-icons a{
+  font-size: 1.1em;
+  width: 2em;
+  height: 2em;
+  border:1px #fff solid ;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.media-icons a:hover{
+  background:var(--orange);
+  color: #111;
+}
+

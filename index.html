@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Arvo:ital@0;1&family=DM+Serif+Display&family=Dancing+Script:wght@400;500&family=Dela+Gothic+One&family=Lilita+One&family=Merriweather:ital,wght@1,900&family=Nunito+Sans:opsz@6..12&family=Rubik&family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <a href="http://localhost/final.php"></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary fixed-top" style="background-color: black;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./Logo.png" alt="logo" style="height: 20px; width:20px;">BADMINTON CLUB</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active mx-lg-2" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-lg-2" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-lg-2" href="#schedule">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-lg-2" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-lg-2" href="#trainers">Trainers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-lg-2"  href="#contact">Contact</a>
+              </li>
+              <div class="icons">
+                <a href="./register_form.php"><i class="fas fa-user" id="login-btn"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-----head carousel---->
+<div id="home" style="background-color: black;">
+    <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./Homeimg1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Play, Learn, and Practise Badminton.</h5> 
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="./Homeimg2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>We are Open to All Ages and Abilities.</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="./Homeimg3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Life is a game,Badminton is serious.</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+
+    <!---------About section--->
+
+<div id="about">
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 " style="min-height:400px">
+                    <div class="position-relative h-80">
+                        <img src="./Aboutimg.jpg" alt="" style="object-fit: cover;" class="img-fluid position-absolute w-80 h-80">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <h4 class="section-tittle bg-white text-center text-warning p-3">About Us</h4>
+                    <h1 class="mb-4">Welcome to Badminton Club</h1>
+
+                    <h3 class="mb-4 text-black"></h3>
+                    <p class="mb-4"></p  style="text-align: justify;">Badminton is an indoor game that needs lot of energy and is suitable for physical fitness. This game is played  a lightweight racket and  shuttlecock and does not need  lot of players. It can be played with one or two players in each team. Some of the best badminton players in India are Saina Nehwal, P.V.</p>
+                    <br>
+                    <p style="text-align: justify;">Create video tutorials on specific badminton techniques, footwork, or strategies.Share effective drills that players can practice to enhance their skills. Provide workouts and exercises tailored to improve badminton players' agility and endurance.Showcase success stories of your coached players, including their achievements and progress. Share dietary tips and nutrition plans for optimal performance on the court.
+                        Host live sessions where coaches answer questions from players and enthusiasts. Break down professional matches, explaining tactics and highlighting key moments.
+                        Share updates and results from tournaments where your players are participating.Review and recommend badminton gear, explaining their benefits for players.
+                        Provide information for parents about supporting their child's badminton journey.</p>
+                    <div class="btn btn-warning py-3 px-5 mt-3" ><a href="./readmore1.mp4">Do's & Dont's</a></div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+</div>    
+
+
+<!-----Schedule Section----->
+
+<div class="container-xxl py- Schedule" id="schedule" style="background-color: black " >
+  <div class="container">
+      <div class="text-center">
+          <h4 class="section-tittle text-center text-warning px-3" ><br><br>Schedule Table</h4>
+      </div><br>
+
+  <table class="table">
+         <thead class="thead-light" style="color: white;">
+          <tr>
+              <th scope="col">S.No.</th>
+              <th scope="col">Trainer Name</th>
+              <th scope="col">Training Time</th>
+              <th scope="col">Fees</th>
+          </tr>
+        </thead>    
+  </table>
+  <table>
+      <tr>
+           <th data-title="S.no." scope="row">1</th>
+           <td data-title="Trainer Name">Priyanka</td>
+           <td data-title="Training Time">Full-time(9-5)</td>
+           <td data-title="Fees">5000</td>
+      </tr>
+      <tr>
+          <th data-title="S.no." scope="row">2</th>
+          <td data-title="Trainer Name">Jackson</td>
+          <td data-title="Training Time">Part-time Fn(9-12)</td>
+          <td data-title="Fees">2500</td>
+     </tr>
+     <tr>
+          <th data-title="S.no." scope="row">3</th>
+          <td data-title="Trainer Name">Kanishka</td>
+          <td data-title="Training Time">Part-time An(2-5)</td>
+          <td data-title="Fees"324>2500</td>
+     </tr>
+     <tr>
+          <th data-title="S.no." scope="row">4</th>
+          <td data-title="Trainer Name">Smith</td>
+          <td data-title="Training Time">One hour</td>
+          <td data-title="Fees">500</td>
+       </tr>
+  </table>
+  </div><br><br>
+  </div>
+
+  <!-------service section-->
+<div class="container-xxl py-4 " id="services">
+  <div class=" container">
+      <div class="text-center">
+          <h4 class="section-tittle bg-white text-center text-warning px-3"><br><br>Services</h4>
+          </div><br><br>
+          <div class="row g-4">
+             <div class=" col-lg-3 col-sm-6">
+                  <div class="service-item rounded pt-3">
+                      <div class="p-4">
+                      <i class="fa fa-chalkboard-teacher fa-3x  text-warning mb-4"></i>
+                      <h5>Professional Coaching</h5>
+                      <p style="text-align: justify;">" Tailored coaching programs for all skill levels led by experienced coaches."</p>
+                      </div>
+                  </div>
+              </div>
+              <div class=" col-lg-3 col-sm-6">
+                  <div class="service-item rounded pt-3">
+                      <div class="p-4">
+                          <i class="fa fa-users fa-3x text-warning mb-4"></i>
+                          <h5>Social Events</h5>
+                          <p style="text-align: justify;">"Organizing social gatherings foster sense of community among members." </p>
+
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                  <div class="service-item rounded pt-3">
+                      <div class="p-4">
+                          <i class="fa  fa-shopping-basket fa-3x text-warning mb-4"></i>
+                          <h5>Kits available</h5>
+                          <p style="text-align: justify;">"We are providing quality badminton equipments for rent and purchase."</p>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-lg-3 col-sm-6">
+                  <div class="service-item rounded pt-3">
+                      <div class="p-4">
+                          <i class="fa fa-heartbeat fa-3x text-warning mb-4"></i>
+                          <h5>Physiotherapy Services</h5>
+                          <p style="text-align: justify;">"Support for injury prevention and recovery to through professional physiotherapy."</p>
+                     </div>
+                  </div>
+              </div>
+
+          </div>
+      </div><br><br>
+  </div>
+
+  <!-----process-->
+  
+  <div class="container-xxl py-5" style="background-color:black;">
+    <div class="container">
+        <div class="text-center pb-4">
+            <h4 class="section-title  text-center text-warning px-3"><br>Easy steps to achieve</h4>
+        </div><br>
+
+        <div class="row gy-5 gx-4 justify-content-center">
+
+            <div class="col-lg-4 col-sm-6 text-center pt-4">
+                <div class="position-relative border border-warning pt-5 pb-4 px-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-warning rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px;height: 100px;">
+                    <i class="fa fa-file-signature fa-3x text-white"></i>
+                </div>
+                <h5 class="mt-4" style="color: white;">Enrollment</h5>
+                <hr class="w-25 mx-auto bg-warning mt-0">
+                <p class="mb-0" style="color: white;">Register for club membership to unlock access to facilities,coaching and community events.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center pt-4">
+                <div class="position-relative border border-warning pt-5 pb-4 px-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-warning rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px;height: 100px;">
+                    <i class="fa fa-chart-line fa-star  text-white"></i>
+                </div>
+                <h5 class="mt-4" style="color: white;">Skill Development</h5>
+                <hr class="w-25 mx-auto bg-warning mt-0">
+
+                <p class="mb-0" style="color: white;">Engage in regular coaching sessions and skill clinics to enhance your badminton proficiency.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center pt-4">
+                <div class="position-relative border border-warning pt-5 pb-4 px-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-warning rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px;height: 100px;">
+                    <i class="fa fa-calendar-check fa-3x text-white"></i>
+                </div>
+                <h5 class="mt-4" style="color: white;">Attend all events</h5>
+                <hr class="w-25 mx-auto bg-warning mt-0">
+
+                <p class="mb-0" style="color: white;">Take part in club events, tournaments, and friendly matches to apply your skills.</p>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+</div>
+
+<!-----Trainers Section----->
+
+
+<div class="container-xxl py-5" id="trainers">
+    <div class="container">
+        <div class="text-center">
+            <h4 class="section-tittle bg-white text-center text-warning px-3"><br><br>Excellent Trainers</h4>
+           </div>
+    </div>
+</div>
+
+
+<div class="wrapper">
+    <div class="card">
+        <div class="poster"> <img src="./Trainers img.jpg"  width="320px" height="500px" alt="">location</div>
+
+        <div class="details">
+            <h1>Gujarat</h1>
+            <h2>2015</h2>
+            <div class="rating">
+                <span>4.8/5</span>
+            </div>
+        <p class="desc" style="text-align: justify;">A proficient badminton trainerof technical knowledge of the sport. They focus on refining players' including grip,and shot variations. By breaking down movements manageable, trainers help players develop solid foundation.</p>
+
+        </div>
+    </div>
+
+      <div class="card">
+        <div class="poster"> <img src="./Trainers img1.jpg" width="320px" height="500px" alt="">location</div>
+
+        <div class="details">
+            <h1>Tamilnadu</h1>
+            <h2>2017</h2>
+            <div class="rating">
+                <span>4.9/5</span>
+            </div>
+            
+            <p class="desc" style="text-align: justify;"> A significant part of badminton training involves physical conditioning. Trainers work on building mental toughness, teaching ,stay focused, composed under pressure, and resilient in the face of challenges.</p>
+            </div>
+        </div>
+
+    <div class="card">
+        <div class="poster"> <img src="./Trainers img2.png" width="300px" height="500px" alt="">location</div>
+
+        <div class="details">
+            <h1>Maharastra</h1>
+            <h2>2010</h2>
+            <div class="rating">
+                <span>4/5</span>
+            </div>
+            
+            <p class="desc" style="text-align: justify;">Beyond technicalities, effective badminton trainers offer strategic guidance. They analyze opponents, identify weaknesses, and teach players how to exploit these opportunities during matches.  </p>
+             </div>
+        </div>
+    
+    <div class="card">
+        <div class="poster"> <img src="./Trainers img3.webp" width="320px" height="500px" alt="">location</div>
+
+        <div class="details">
+            <h1>Hyderabad</h1>
+            <h2>2021</h2>
+            <div class="rating">
+                <span>4.2/5</span>
+            </div>
+            
+            <p class="desc" style="text-align: justify;">Every player is unique, and effective badminton trainers understand the importance of personalized coaching. They tailor their approach to cater to each player's strengths, weaknesses, and learning style.</p>
+            
+                
+            </div>
+        </div>
+    </div><br><br>
+</div>
+ <!----Team section---->
+ <div class="container-xxl py-5" style="background-color: black;">
+  <div class="container">
+      <div class="text-center">
+          <h4 class="section-title  text-center text-warning px-3">Meet our guide</h4>
+          </div><br>
+
+      <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+              <div class="team-item">
+                  <div class="overflow-hidden">
+                      <img src="./pv sindhu" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="position-relative  d-flex  justify-content-center" style="margin: -20px;">
+                  <a href="" class="btn btn-square mx-1">
+                      <i class="fab fa-facebook "></i>
+                  </a>
+                  <a href="" class="btn btn-square mx-1">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="" class="btn btn-square mx-1">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+              </div>
+
+              <div class="text-center p-4">
+                  <h5 class="mb-0" style="color: white;">PV Sindhu</h5>
+                  <small style="color: white;">Hyderabad</small>
+              </div>
+              </div>
+            </div>
+          <div class="col-lg-3 col-md-6">
+              <div class="team-item">
+                  <div class="overflow-hidden">
+                      <img src="./Srikanth-Kidambi-Image.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="position-relative d-flex justify-content-center" style="margin: -20px;">
+                  <a href="" class="btn btn-square mx-1">
+                      <i class="fab fa-facebook"></i>
+                  </a>
+                  <a href="" class="btn btn-square mx-1">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="" class="btn btn-square mx-1">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+              </div>
+
+              <div class="text-center p-4">
+                  <h5 class="mb-0" style="color: white;">Srikanth Kidambi</h5>
+                  <small style="color: white;">Guntur</small>
+              </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <div class="team-item">
+                  <div class="overflow-hidden">
+                      <img src="./saina-nehwal.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="position-relative d-flex justify-content-center" style="margin: -20px;">
+                  <a href="" class="btn btn-square mx-1">
+                      <i class="fab fa-facebook"></i>
+                  </a>
+                  <a href="" class="btn btn-square mx-1">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="" class="btn btn-square mx-1">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+              </div>
+
+              <div class="text-center p-4">
+                  <h5 class="mb-0" style="color: white;">Saina Nehwal</h5>
+                  <small style="color: white;">Hisar</small>
+              </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <div class="team-item">
+                  <div class="overflow-hidden">
+                      <img src="./paruppalli kashyap.jpg" alt="" class="img-fluid">
+                  </div>
+
+                  <div class="position-relative d-flex justify-content-center" style="margin: -20px;">
+                  <a href="" class="btn btn-square mx-1">
+                      <i class="fab fa-facebook"></i>
+                  </a>
+                  <a href="" class="btn btn-square mx-1">
+                      <i class="fab fa-twitter "></i>
+                  </a>
+                  <a href="" class="btn btn-square mx-1">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+              </div>
+
+              <div class="text-center p-4">
+                  <h5 class="mb-0" style="color: white;">Parupalli Kashyap</h5>
+                  <small style="color: white;">Hyderabad</small>
+              </div>
+              </div>
+          </div>
+ </div>
+  </div><br>
+</div>
+
+
+<!-----Review section----->
+
+<div class="container-xxl py-5" >
+  <div class="container">
+      <div class="text-center">
+          <h4 class="section-title bg-white text-center text-warning px-3"><br><br>Our Clients reviews!!!!</h4>
+      </div>
+
+      <div class="owel-carousel testimonial-carousel position-relative">
+
+          <div class="testimonial-item bg-white border text-center p-4">
+          <img src="./Reviewer.jpg" alt="" class="bg-white rounded-circle shadow p-1 mx-auto mb-3" style="width:100px;height: 100px;">
+          <h5 class="mb-0">Ashwini</h5>
+          <i class="fas fa-star fa-1x"style="color:darkorange" ></i><i class="fas fa-star fa-1x"style="color:darkorange" ></i><i class="fas fa-star fa-1x" style="color:darkorange" ></i><i class="fas fa-star fa-1x"style="color:darkorange" ></i><i class="fas fa-star fa-1x"style="color:darkorange" ></i>
+          <p class="mt-2 mb-0">Well maintained wooden court with proper lighting & air ventilating facility, one of the best court near by Overall a very friendly place to start</p>
+          </div>
+
+          <div class="testimonial-item bg-white border text-center p-4">
+          <img src="./Reviewer2.jpg" alt="" class="bg-white rounded-circle shadow p-1 mx-auto mb-3" style="width:100px;height: 100px;">
+          <h5 class="mb-0">Prakash</h5>
+          <i class="fas fa-star fa-1x"style="color:darkorange" ></i><i class="fas fa-star fa-1x"style="color:darkorange" ></i><i class="fas fa-star fa-1x" style="color:darkorange" ></i><i class="fas fa-star fa-1x"style="color:darkorange" ></i><i class="fas fa-star fa-1x"style="color:darkorange" ></i>
+          <p class="mt-2 mb-0">Badminton court has a convenient location, sufficient lighting, good coaching, affordable prices, and provides an excellent overall experience."I had a great experience at this badminton court. It's conveniently located, well-lit for evening play, offers excellent coaching, and the pricing is budget-friendly. I highly recommend it!"</p>
+          </div>
+
+          <div class="testimonial-item bg-white border text-center p-4">
+          <img src="./Reviewer1.jpg" alt="" class="bg-white rounded-circle shadow p-1 mx-auto mb-3" style="width:100px;height: 100px;">
+          <h5 class="mb-0">Tanisha</h5>
+          <i class="fas fa-star fa-1x"style="color:darkorange" ></i><i class="fas fa-star fa-1x"style="color:darkorange" ></i><i class="fas fa-star fa-1x" style="color:darkorange" ></i><i class="fas fa-star fa-1x"style="color:darkorange" ></i><i class="fas fa-star fa-1x"style="color:darkorange" ></i>
+          <p class="mt-2 mb-0">Wooden Court Beautiful place to play, lots of parking space, great view and easy access to road, lighting is well enough, good relaxing space as well, drinking water available,staff attitude is good, change rooms and restrooms are available, only thing is very small fan all others good</p>
+          </div>
+      </div>
+  </div>
+</div>
+<!------contact-->
+<section id="contact" href="./contact.php" ><br>
+    <div class="container box">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-12">
+      <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15547.341920115383!2d80.22096639483894!3d13.046142000801908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52674dca16d497%3A0x23ac5ce0d16fae13!2sShuttle%20Up%20Badminton%20Academy!5e0!3m2!1sen!2sin!4v1708092722635!5m2!1sen!2sin"  width="500" height="300"  style="border:0; margin-top: 100px;"
+     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    </div>
+    <div class="col-lg-6 col-md-6 col-12"style="margin-top: 50px;">
+    <h4>Contact Us</h4>
+    <form  method="post" action="contact.php">
+      <input type="text" name="uname" class="form-control"
+      placeholder="Enter your Name" >
+      <input type="number" class="form-control"
+      placeholder="Enter your Mobile Number" name="number">
+      <input type="email" class="form-control"
+      placeholder="Enter your Email" name="email">
+      <input type="password" class="form-control"
+      placeholder="Enter your Password" name="password"><br>
+      <textarea class="form-control"
+      placeholder="Enter your message" name="message"></textarea>
+      <button class="btn signin" style="border: 1px solid darkorange; width: 30%; margin: 5% 30%; background-color:darkorange; color: white;">Submit</button>
+    </form>
+    </div>
+    </div>
+    </div>
+    </section>
+ 
+
+<!----------footer-->
+<footer class="footer1">
+        <div class="container">
+                <h4>BADMINTON CLUB</h4>
+                <ul class="menu">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#schedule">Schedule</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#trainers">Trainers</a>
+                    </li>
+                </ul>
+                <ul class="media-icons">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            <p>Badminton is often played as a casual outdoor activity in a yard or on a beach; formal games are played on a rectangular indoor court. Points are scored by striking the shuttlecock with the racquet and landing it within the other team's half of the court.</p>
+        </div>
+        <hr><p>Copyright @2024 Badminton Sports.All rights reserved.</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</body>
+</html>
